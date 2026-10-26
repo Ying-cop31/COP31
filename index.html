@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>守护骑手 · 气候韧性 | Taobao Instant Commerce @ COP31</title>
+<meta name="description" content="Taobao Instant Commerce rider climate-resilience and social responsibility videos for COP31 Antalya.">
+<style>
+  :root{
+    --orange:#FF6A00; --green:#1E8E5A; --dark:#1a1a1a; --grey:#6b6b6b;
+    --bg:#f5f7f6; --card:#ffffff;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+  html,body{background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Arial,sans-serif;color:var(--dark);}
+  .wrap{max-width:680px;margin:0 auto;padding:0 16px 40px;}
+  /* header */
+  .top{background:linear-gradient(135deg,var(--orange),#ff8f3c);color:#fff;padding:22px 16px 26px;text-align:center;}
+  .brand{font-size:13px;letter-spacing:.5px;opacity:.95;font-weight:600;}
+  .cop-tag{display:inline-block;margin-top:10px;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.5);
+    padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;letter-spacing:.5px;}
+  h1{font-size:23px;line-height:1.35;margin-top:14px;font-weight:800;}
+  h1 .en{display:block;font-size:15px;font-weight:600;opacity:.95;margin-top:6px;letter-spacing:.3px;}
+  /* lang toggle */
+  .lang{display:flex;gap:8px;justify-content:center;margin:18px 0 4px;}
+  .lang button{padding:8px 26px;border-radius:22px;border:1.5px solid var(--green);
+    background:#fff;color:var(--green);font-size:13px;font-weight:700;cursor:pointer;transition:.2s;}
+  .lang button.active{background:var(--green);color:#fff;}
+  /* video card */
+  .card{background:var(--card);border-radius:16px;overflow:hidden;margin-top:16px;
+    box-shadow:0 6px 24px rgba(0,0,0,.10);}
+  .video-box{position:relative;width:100%;padding-top:56.25%;background:#000;}
+  .video-box iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0;}
+  .card-body{padding:16px 18px 20px;}
+  .kicker{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.5px;color:#fff;
+    background:var(--green);padding:3px 10px;border-radius:12px;margin-bottom:10px;}
+  .kicker.orange{background:var(--orange);}
+  .card-body h2{font-size:17px;font-weight:700;color:var(--dark);line-height:1.4;}
+  .card-body p{font-size:14px;line-height:1.7;color:#444;margin-top:10px;}
+  /* footer */
+  .foot{text-align:center;margin-top:26px;color:var(--grey);font-size:12px;line-height:1.8;}
+  .foot .logo{font-weight:800;color:var(--orange);font-size:14px;}
+  /* language visibility */
+  .zh-only,.en-only{display:none;}
+  body.zh .zh-only{display:block;}
+  body.en .en-only{display:block;}
+  body.zh .en-only{display:none;}
+  body.en .zh-only{display:none;}
+</style>
+</head>
+<body class="zh">
+
+<div class="top">
+  <div class="brand">淘宝闪购 · Taobao Instant Commerce</div>
+  <div class="cop-tag">COP31 · Antalya · Türkiye</div>
+  <h1>
+    <span class="zh-only">数字化守护骑手，提升气候韧性</span>
+    <span class="en-only">Digitalization Protects Riders, Building Climate Resilience</span>
+  </h1>
+</div>
+
+<div class="wrap">
+
+  <div class="lang">
+    <button id="btn-zh" class="active" onclick="setLang('zh')">中文</button>
+    <button id="btn-en" onclick="setLang('en')">English</button>
+  </div>
+
+  <!-- ===== 视频1：骑手恶劣天气科普 ===== -->
+  <div class="card">
+    <div class="video-box">
+      <iframe id="yt1" src="" title="Rider extreme weather video"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen loading="lazy"></iframe>
+    </div>
+    <div class="card-body">
+      <span class="kicker orange">
+        <span class="zh-only">骑手恶劣天气科普</span><span class="en-only">Rider Extreme-Weather Safety</span>
+      </span>
+      <h2>
+        <span class="zh-only">恶劣天气下的骑手守护</span>
+        <span class="en-only">Protecting Riders in Extreme Weather</span>
+      </h2>
+      <p>
+        <span class="zh-only">气候变化让高温、暴雨、台风、寒潮更加频繁，长期户外作业的骑手首当其冲。淘宝闪购用数字化工具守护骑手：实时气象预警、极端天气智能调度与高温"熔断"停单、防暑防寒物资驿站、骑手健康科普。</span>
+        <span class="en-only">Climate change is making heatwaves, rainstorms, typhoons and cold snaps more frequent, and riders who work outdoors bear the first impact. Taobao Instant Commerce uses digital tools to protect them: real-time weather alerts, smart dispatch with a high-temperature "circuit-breaker" order pause, heat- and cold-relief stations, and rider health education.</span>
+      </p>
+    </div>
+  </div>
+
+  <!-- ===== 视频2：社会责任2025 ===== -->
+  <div class="card">
+    <div class="video-box">
+      <iframe id="yt2" src="" title="Social responsibility 2025 video"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen loading="lazy"></iframe>
+    </div>
+    <div class="card-body">
+      <span class="kicker">
+        <span class="zh-only">社会责任报告 2025</span><span class="en-only">Social Responsibility Report 2025</span>
+      </span>
+      <h2>
+        <span class="zh-only">淘宝闪购 2025 社会责任</span>
+        <span class="en-only">Taobao Instant Commerce Social Responsibility 2025</span>
+      </h2>
+      <p>
+        <span class="zh-only">从绿色消费到骑手关怀，从食品安全到气候行动，淘宝闪购以数字化能力推动即时零售的可持续发展，为消费者、骑手、商户和地球创造长期价值。</span>
+        <span class="en-only">From green consumption to rider care, from food safety to climate action, Taobao Instant Commerce leverages digital capabilities to drive the sustainable development of instant retail, creating long-term value for consumers, riders, merchants and the planet.</span>
+      </p>
+    </div>
+  </div>
+
+  <div class="foot">
+    <div class="logo">淘宝闪购 Taobao Instant Commerce</div>
+    <div class="zh-only">数字化助力应对气候变化和提升气候韧性</div>
+    <div class="en-only">Digitalization for Climate Action and Resilience</div>
+    <div style="margin-top:8px;opacity:.7;">UN Climate Change Conference · COP31 · 9–20 Nov 2026</div>
+  </div>
+</div>
+
+<script>
+/* ============================================================
+   后续换视频：只改下面两个 VIDEO_ID 即可，URL/二维码永不变
+   To update videos later: change ONLY these two IDs.
+   视频1 = 骑手恶劣天气科普 / Video 1 = rider extreme weather
+   视频2 = 社会责任2025     / Video 2 = social responsibility
+   ============================================================ */
+const VIDEO_ID_1 = "IT87Aa-A86c";   // ← 骑手恶劣天气科普
+const VIDEO_ID_2 = "5hN9mQtIKew";   // ← 社会责任2025
+
+function mount(elId, vid){
+  const el = document.getElementById(elId);
+  if(vid && vid.indexOf("REPLACE_WITH") === -1){
+    el.src = "https://www.youtube-nocookie.com/embed/" + vid + "?rel=0&modestbranding=1&playsinline=1";
+  }else{
+    el.srcdoc = '<div style="display:flex;align-items:center;justify-content:center;height:100%;background:#111;color:#fff;font-family:sans-serif;text-align:center;padding:20px;font-size:14px;">视频即将上线<br>Video coming soon</div>';
+  }
+}
+mount('yt1', VIDEO_ID_1);
+mount('yt2', VIDEO_ID_2);
+
+function setLang(l){
+  document.body.className = l;
+  document.getElementById('btn-zh').classList.toggle('active', l==='zh');
+  document.getElementById('btn-en').classList.toggle('active', l==='en');
+  document.documentElement.lang = (l==='zh'?'zh-CN':'en');
+}
+</script>
+</body>
+</html>
